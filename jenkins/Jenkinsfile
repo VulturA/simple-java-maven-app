@@ -27,5 +27,10 @@ pipeline {
                 echo 'Job complete'
             }
         }
+        stage('Recomplete') {
+            steps {
+                echo 'Job validate'
+            }
+        }
     }
 }
